@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__logoName">
+            <h2>Калькулятор калорий</h2>
+        </div>
+    </div>
+
+    <div class="calculator">
+        <div class="calculator__pol">
+            <h3>Пол</h3>
+            <div class="calculator__pol--button" id="gender">
+                <div class="calculator__pol--buttonMale calculator__pol--buttonMaleActive" id="male">Мужчина</div>
+                <div class="calculator__pol--buttonMale" id="female">Женщина</div>
+            </div>
+        </div>
+        <div class="calculator__AgeVesRost">
+            <div class="Calculator__AgeVesRost_Age">
+                <p>Возраст</p>
+                <input placeholder="0 лет" size="3" id="age" />
+            </div>
+            <div class="Calculator__AgeVesRost_Ves">
+                <p>Вес</p>
+                <input placeholder="0 кг" size="3"  id="weight"/>
+            </div>
+            <div class="Calculator__AgeVesRost_Rost">
+                <p>Рост</p>
+                <input placeholder="0 см" size="3" id="height"/>
+            </div>
+        </div>
+
+        <div class="calculator__activiti">
+            <h3>Физическая Активность </h3>
+            <div class="calculator__activiti--input">
+                <div data-ratio="1.2" class="calculator__act">Минимальная </div>
+                <div data-ratio="1.375" class="calculator__act">Низкая</div>
+                <div data-ratio="1.55" class="calculator__act calculator__activiti--active">Средняя</div>
+                <div data-ratio="1.725" class="calculator__act">Высокая</div>
+                <div data-ratio="1.859" class="calculator__act">Очень Высокая</div>
+            </div>
+        </div>
+
+        <div class="calculator__button">
+            <div class="result">
+                <div>Ваша норма колорий:</div>
+                <span>6482</span>
+            </div>
+        </div>
+        
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
