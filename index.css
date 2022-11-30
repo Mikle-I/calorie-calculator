@@ -1,137 +1,131 @@
-body{
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+body {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 2px solid rgb(147, 141, 141);
+  border-radius: 15px;
+  width: 360px;
+  margin: 0 auto;
 }
-.header{
-    display: flex;
-    flex-direction: row;
-     margin-left: 10% ;
-     margin-right: 10% ;
-     margin-top: 2%;
-     margin-bottom: 2%;
-     align-items: center;
-     justify-content: center;
-     padding-right: 10px;
-     border:2px solid rgb(147, 141, 141);
-     border-radius: 15px;
-     width: 540px;
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
 }
-.header__logoName{
-   display: flex;
-   flex-direction: row; 
-   align-items: center;
-   padding-left: 2%;
-   padding-right: 5px;
-   justify-content: space-between;
-   font-size: x-large;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.header__logoName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 5px;
+  justify-content: space-between;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.header__logoName div{
-    padding-left: 10px;
-    
+.header__logoName div {
+  padding-left: 10px;
 }
-.header nav{
-    width: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+.header nav {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.calculator{
-    border:2px solid rgb(147, 141, 141);
-     border-radius: 15px;
-     margin-left: 10%;
-     margin-right: 10%;
-     display: flex;
-     flex-direction: column;
-     align-content: center;
-     width: 550px;
-     
+.calculator {
+  border-radius: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 350px;
 }
-.calculator__pol{
-    
-    display: flex;
-    justify-content: left;
-    flex-direction:column;
-    border:2px solid rgb(147, 141, 141);
-    border-radius: 15px;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 3%;
-    padding-bottom: 10px;
-    
+.calculator__pol {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  border: 2px solid rgb(147, 141, 141);
+  border-radius: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 3%;
+  padding-bottom: 10px;
 }
-.calculator__pol--button{
-    display: flex;
-    justify-content:space-around;
-    flex-direction:row;
+.calculator__pol--button {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
-.calculator__pol--buttonMale{
-    border: 1px solid rgb(147, 141, 141);
-    border-radius: 15px;
-    min-width: 150px;
+.calculator__pol--buttonMale {
+  border: 1px solid rgb(147, 141, 141);
+  border-radius: 15px;
+  min-width: 150px;
 }
-.calculator__pol--buttonMaleActive{
-    background: black;
-    color: aliceblue;
+.calculator__pol--buttonMaleActive {
+  background: black;
+  color: aliceblue;
 }
-.calculator__AgeVesRost{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    display: flex;
-    justify-content: space-around;
-    border:2px solid rgb(147, 141, 141);
-    border-radius: 15px;
-    padding-bottom: 10px;
-    margin-left: 2%;
-    margin-right: 2%;
+.calculator__AgeVesRost {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid rgb(147, 141, 141);
+  border-radius: 15px;
+  padding-bottom: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
-.calculator__activiti{
-    border:2px solid rgb(147, 141, 141);
-    border-radius: 15px;
-    padding-bottom: 10px;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 10px;
+.calculator__activiti {
+  border: 2px solid rgb(147, 141, 141);
+  border-radius: 15px;
+  padding-bottom: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 10px;
 }
-.calculator__act{
-    width: 250px;
-    border: 1px solid rgb(147, 141, 141);
-    border-radius: 15px;
-    margin-bottom: 5px;
+.calculator__act {
+  width: 250px;
+  border: 1px solid rgb(147, 141, 141);
+  border-radius: 15px;
+  margin-bottom: 5px;
 }
-.calculator__activiti--active{
-    background: black;
-    color: aliceblue;
+.calculator__activiti--active {
+  background: black;
+  color: aliceblue;
 }
 
-.calculator__activiti--input{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-.calculator__button{
-    border:2px solid rgb(147, 141, 141);
-    border-radius: 15px;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 10px;
-    padding: 5px;
+.calculator__activiti--input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.Calculator__AgeVesRost input{
-    width: 50px;
+.calculator__button {
+  border: 2px solid rgb(147, 141, 141);
+  border-radius: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 10px;
+  padding: 5px;
 }
-.result span{
-    font-size: 25px;
+.Calculator__AgeVesRost input {
+  width: 50px;
+}
+.result span {
+  font-size: 25px;
 }
 
 .Calculator__AgeVesRost_Age input,
 .Calculator__AgeVesRost_Ves input,
-.Calculator__AgeVesRost_Rost input
-{
-    border:1px solid rgb(54, 52, 52);
-    border-radius: 7px;
+.Calculator__AgeVesRost_Rost input {
+  border: 1px solid rgb(54, 52, 52);
+  border-radius: 7px;
 }
